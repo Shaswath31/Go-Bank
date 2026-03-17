@@ -17,8 +17,12 @@ import (
 
 func TestCreateTransferAPI(t *testing.T) {
 	amount := int64(10)
-	account1 := randomAccount()
-	account2 := randomAccount()
+
+	user1, _ := randomUser(t)
+	user2, _ := randomUser(t)
+
+	account1 := randomAccount(user1.Username)
+	account2 := randomAccount(user2.Username)
 
 	account1.Currency = utils.EUR
 	account2.Currency = utils.EUR
@@ -67,7 +71,8 @@ func TestCreateTransferAPI(t *testing.T) {
 			tc.buildStubs(store)
 
 			//start test server and send request
-			server := NewServer(store)
+			server := newTestServer(t, store)
+
 			recorder := httptest.NewRecorder()
 
 			url := "/transfers"

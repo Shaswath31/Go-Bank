@@ -1,7 +1,4 @@
-# This workflow will build a golang project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
-
-name: Go
+name: Run unit tests 
 
 on:
   push:
@@ -18,7 +15,7 @@ jobs:
     services:
       postgres:
         # Docker Hub image
-        image: postgres:15.17-trixie
+        image: postgres:15.17-alpine3.23
         # Provide the password for postgres
         env:
           POSTGRES_USER: root

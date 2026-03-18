@@ -1,7 +1,7 @@
 POST http://localhost:8080/accounts
 Content-Type: application/json
+authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ3ZjA1MmYyLWJjNTAtNGYyOS1hOTI1LWQ5ZWY3MTMwYzE3MiIsInVzZXJuYW1lIjoic2Ftd2lzZXIxIiwiaXNzdWVkX2F0IjoiMjAyNi0wMy0xOFQwNzoyNzo1OC44NjkyOTk2WiIsImV4cGlyZWRfYXQiOiIyMDI2LTAzLTE4VDA3OjQyOjU4Ljg2OTI5OTdaIn0.gxC_rZ1DkOeeQTNb5ujL6NCNQWI83Z2Mb1YTCuHFaGk
 
 {
-    "owner":"ad",
-    "currency":"USD"
+    "currency":"EUR"
 }

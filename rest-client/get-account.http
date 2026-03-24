@@ -1,4 +1,4 @@
-GET http://localhost:8080/accounts/33
+GET http://127.0.0.1:3192/accounts/33
 
 authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQyMWQ5ZGRhLWYyNTgtNGQ0Ny1iNDEwLTlkNmViYmI3ZDliZSIsInVzZXJuYW1lIjoic2Ftd2lzZXIxIiwiaXNzdWVkX2F0IjoiMjAyNi0wMy0xOFQwNzozMzoxMi42NjY2OTYxMDNaIiwiZXhwaXJlZF9hdCI6IjIwMjYtMDMtMThUMDc6NDg6MTIuNjY2Njk2MzA0WiJ9.TsSmxtGAMWV1u0Ng84fK5esf5rfxkCuXMa5Bz-zwc2w
 

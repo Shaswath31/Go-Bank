@@ -1,4 +1,4 @@
-POST http://localhost:8080/users/login
+POST http://a4d658df60d50441780be1507b1230da-1455461648.ap-south-1.elb.amazonaws.com/users/login
 Content-Type: application/json
 
 {
